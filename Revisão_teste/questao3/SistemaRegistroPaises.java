@@ -36,6 +36,9 @@ public class SistemaRegistroPaises {
 
         // Exibindo as fronteiras do Brasil
         System.out.println(brasil.getNome() + " faz fronteira com:");
+        //Pais é o tipo do objeto que estamos percorrendo e pais é a variável 
+        //que será atribuída a cada elemento da lista brasil.getFronteiras() 
+        //em cada iteração do loop.
         for (Pais pais : brasil.getFronteiras()) {
             System.out.println("Ao " + pais.getNome());
         }
